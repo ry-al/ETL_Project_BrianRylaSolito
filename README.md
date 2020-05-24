@@ -28,7 +28,7 @@ All Sources Included within README file or GitHub repository under (Resources) F
 
 We retrieved a list of the Top 250 Movies along with the movie's year of release and IMDB rating by web scraping the following [page](https://www.imdb.com/chart/top/?ref_=nv_mv_250). 
 
-We also scraped the movie pages from (reelgood.com)[https://reelgood.com/movies] to find the movies available on Amazon Prime, Netflix, Disney+, and Hulu. Since you can filter these pages by IMDB rating, we restricted the movies we retrieved to an IMDB rating of 8 or higher in order to easily match movies that are on the IMDB Top 250 list.
+We also scraped the movie pages from [reelgood.com](https://reelgood.com/movies) to find the movies available on Amazon Prime, Netflix, Disney+, and Hulu. Since you can filter these pages by IMDB rating, we restricted the movies we retrieved to an IMDB rating of 8 or higher in order to easily match movies that are on the IMDB Top 250 list.
 
 We also were able to retrieve additional information on the movies available on Netflix and Disney+ from Kaggle sources. The only data that was incomplete was the url for each result; we couldn’t find a source URL for every matching movie.
 
