@@ -13,7 +13,7 @@ Due to the prevalence of streaming services in our media consumption, we wanted 
 # PROJECT OUTLINE 
 
 Jupyter Notebook containing all code for all three project portions 
-[This link](https://github.com/ry-al/ETL_Project_BryanRylaSolito/blob/master/data_etl.ipynb) is a link to our main Jupyter Notebook, containing all of our steps and proceures for the whole project.
+[data_etl.ipynb](https://github.com/ry-al/ETL_Project_BryanRylaSolito/blob/master/data_etl.ipynb) is a link to our main Jupyter Notebook, containing all of our steps and proceures for the whole project.
 
 *Processes described in markdown cells or commented code within the Jupyter notebook, as well as within this README file. 
 *Created an ERD, using QuickBaseDiagrams, as a reference for the end product desired, in addition to a flowchart to keep us on track and give a solid workflow visualization. 
