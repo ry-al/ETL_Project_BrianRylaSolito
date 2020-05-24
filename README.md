@@ -4,16 +4,16 @@
 - Ryla Almario
 - Solito Reyes
 
-# Synopsis
+# Objective
 
-IMDB has a list a revered list of the [Top 250 Movies](https://www.imdb.com/chart/top/?ref_=nv_mv_250) based off of user IMDB ratings. As per this IMDB page, shorts, TV movies, and documentaries are not included; also, only movies that received at least 25,000 ratings from users.
+IMDB has a revered list of the [Top 250 Movies](https://www.imdb.com/chart/top/?ref_=nv_mv_250) based off of user IMDB ratings. As per this IMDB page, shorts, TV movies, and documentaries are not included; also, only movies that received at least 25,000 ratings from users.
 
-Due to the prevalence of streaming services in our media consumption, we wanted to discover which streaming services provide these movies.  We analyzed the available movies for Netflix, Amazon Prime, Disney+, and Hulu for this project.
+Due to the prevalence of streaming services in our media consumption, this project aims to know which streaming services provide these movies by analyzing the available movies for Netflix, Amazon Prime, Disney+, and Hulu.
 
-# PROJECT OUTLINE 
+# Outline
 
 [data_etl.ipynb](https://github.com/ry-al/ETL_Project_BryanRylaSolito/blob/master/data_etl.ipynb) is a link to our main 
-Jupyter Notebook containing all code for all three project portions (Extract, Transformation.
+Jupyter Notebook containing all code for all three project portions which are Extract, Transformation and Loading.
 
 *Processes described in markdown cells or commented code within the Jupyter notebook, as well as within this README file. 
 *Created an ERD, using QuickBaseDiagrams, as a reference for the end product desired, in addition to a flowchart to keep us on track and give a solid workflow visualization. 
