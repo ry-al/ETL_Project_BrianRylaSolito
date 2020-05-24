@@ -34,8 +34,6 @@ We also were able to retrieve additional information on the movies available on 
 
 ## Sources 
 
-Config.py (For access to PostgreSQL database)
-
 Netflix - https://www.kaggle.com/shivamb/netflix-shows
 
 Netflix URLS - https://reelgood.com/movies/source/netflix?filter-imdb_start=8
@@ -75,11 +73,11 @@ The first table (movies) provides information, including a unique title_id, rega
 
 The second table provides information regarding the availability of each title (matched by title_id) on all streaming services studied, and the url(s) with which one can access each movie available.
 
-The first step we took is to create a database within PostgreSQL which we could import the two Pandas dataframe (as .csv files), in order to create a queryable database. 
+The first step we took is to create a database within PostgreSQL, including two tables, to which we could import the two Pandas dataframe (as .csv files), in order to create a queryable database. 
 
 *Code for Creating ETL Project PostgreSQL DB Included in [pgAdminSchema](https://github.com/ry-al/ETL_Project_BryanRylaSolito/blob/master/ETLProject_PGAdmin_Schema.sql) file.
 
-Code in our Jupyter Notebook consisted of creating a database connection by creating an engine, connecting to it, and then confirming all fields/ tables matched. After doing so, loading the final CSV files into the database was the final major step of this project. This left us with a complete database that achieves the original goal, providing the end user with a queryable database that includes all movies available on each streaming service at the time of project completion. (May 23, 	 2020) 
+Then, the code in our Jupyter Notebook consisted of creating a database connection by creating an engine, connecting to it, and then confirming all fields/ tables matched. After doing so, loading the final CSV files into the database was the final major step of this project. This left us with a complete database that achieves the original goal, providing the end user with a queryable database that includes all movies available on each streaming service at the time of project completion. (May 23, 2020) 
 
 
 
