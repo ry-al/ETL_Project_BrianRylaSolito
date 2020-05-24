@@ -18,6 +18,9 @@ Jupyter Notebook containing all code for all three project portions (Extract, Tr
 *Processes described in markdown cells or commented code within the Jupyter notebook, as well as within this README file. 
 *Created an ERD, using QuickBaseDiagrams, as a reference for the end product desired, in addition to a flowchart to keep us on track and give a solid workflow visualization. 
 
+# Flowchart Visual
+![](Images/ETL_Flowchart.png)
+
 All Sources Included within README file or GitHub repository under (Resources) Folder. 
 
 ## Extract
@@ -74,7 +77,7 @@ The second table provides information regarding the availability of each title (
 
 The first step we took is to create a database within PostgreSQL which we could import the two Pandas dataframe (as .csv files), in order to create a queryable database. 
 
-*Code for Creating ETL Project PostgreSQL DB Included in ETLProject_PGAdmin_Schema.sql file 
+*Code for Creating ETL Project PostgreSQL DB Included in [pgAdminSchema](https://github.com/ry-al/ETL_Project_BryanRylaSolito/blob/master/ETLProject_PGAdmin_Schema.sql) file.
 
 Code in our Jupyter Notebook consisted of creating a database connection by creating an engine, connecting to it, and then confirming all fields/ tables matched. After doing so, loading the final CSV files into the database was the final major step of this project. This left us with a complete database that achieves the original goal, providing the end user with a queryable database that includes all movies available on each streaming service at the time of project completion. (May 23, 	 2020) 
 
