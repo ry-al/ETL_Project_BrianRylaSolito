@@ -34,9 +34,11 @@ We also were able to retrieve additional information on the movies available on 
 Config.py (For access to PostgreSQL database)
 
 Netflix - https://www.kaggle.com/shivamb/netflix-shows
+
 Netflix URLS - https://reelgood.com/movies/source/netflix?filter-imdb_start=8
 
 DisneyPlus - https://www.kaggle.com/unanimad/disney-plus-shows
+
 DisneyPlus URLS - https://reelgood.com/movies/source/disney_plus?filter-imdb_start=8
 
 Hulu Movies and URLS - https://reelgood.com/movies/source/hulu?filter-imdb_start=8
